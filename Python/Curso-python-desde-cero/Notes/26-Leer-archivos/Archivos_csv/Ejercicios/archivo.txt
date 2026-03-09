@@ -1,0 +1,11 @@
+Datos de los integrantes
+
+Nombre: LUIS
+Apellido: SANCHEZ
+-----------------------
+Nombre: RICK
+Apellido: SANCHEZ
+-----------------------
+Nombre: BETH
+Apellido: SANCHEZ
+-----------------------

@@ -1,9 +1,14 @@
 
-### En que minuto te quedaste?
+# Seguimiento
 
-1:00:26
+## En que minuto te quedaste?
 
 ### En que tema te quedaste?
 
-6-Datos-Compuestos
-6-1-Listas
+## Pendientes
+
+Ejercicio antes de tema 18
+
+Bucles
+
+- 18 en adelante
