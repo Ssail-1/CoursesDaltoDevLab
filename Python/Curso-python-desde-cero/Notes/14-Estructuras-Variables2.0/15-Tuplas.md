@@ -1,8 +1,6 @@
 
 # 🟣 **Tuplas en Python (`tuple`)**
 
----
-
 ## 📘 **¿Qué es una tupla?**
 
 Una **tupla** es una colección **inmutable y ordenada** de elementos.

@@ -53,7 +53,8 @@ print(nombre, apellido, edad)
 # El orden puede variar cada vez que ejecutes el programa
 ```
 
-💡 Por eso **no se recomienda usar desempaquetado con sets** cuando el orden importa.
+> [!tip]
+> 💡 Por eso **no se recomienda usar desempaquetado con sets** cuando el orden importa.
 
 ---
 

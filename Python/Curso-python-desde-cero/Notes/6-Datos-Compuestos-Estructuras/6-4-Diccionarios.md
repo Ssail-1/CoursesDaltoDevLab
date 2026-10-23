@@ -7,6 +7,7 @@
 * Cada clave debe ser **única**.
 * Los valores pueden ser de **cualquier tipo** (strings, números, listas, otros diccionarios…).
 * Se define con **llaves `{}`**.
+* Tambien se conocen como **Objetos directos**
 
 ```python
 persona = {
@@ -38,6 +39,7 @@ persona["profesion"] = "Desarrollador"
 
 # Modificar
 persona["edad"] = 25
+persona.update({"profesion": "Ing. Sistemas", "apellido": "Sanchez"}) # Modifica y agrega
 
 # Eliminar
 persona.pop("pais")     # elimina una clave específica
@@ -57,7 +59,10 @@ persona.clear()         # vacía el diccionario
 | `dic.items()`      | Devuelve lista de tuplas (clave, valor). | `persona.items()`        |
 | `dic.get("clave")` | Obtiene el valor o `None`.               | `persona.get("nombre")`  |
 | `dic.pop("clave")` | Elimina un elemento.                     | `persona.pop("edad")`    |
+| `dic.popitem()` | Elimina el ultimo par | `dic.popitem()` |
 | `dic.copy()`       | Copia el diccionario.                    | `copia = persona.copy()` |
+| `dic.update()` | Puede modificar y agregar nuevos pares | `dic.update({"profecion":"Ingeniero", "Altura":1.7})` |
+| `dic.clear()` | Elimina el contenido del diccionario | `dic.clear()` |
 
 ---
 
@@ -106,13 +111,6 @@ print(usuarios["ssail"]["rol"])  # admin
 | **JavaScript**     | `Object` / `JSON`      | `{ clave: "valor" }`      |
 | **Java**           | `HashMap`              | `HashMap<String, String>` |
 | **Bases de datos** | Clave primaria (ID)    | `id -> fila`              |
-
----
----
-
-## 🧩 Refuezo Diccionarios (`dict`)**
-
-* (contenido base igual que antes: qué son, cómo se crean, cómo acceder y modificar…)*
 
 ---
 

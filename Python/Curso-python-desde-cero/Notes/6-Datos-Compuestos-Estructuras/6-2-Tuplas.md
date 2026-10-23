@@ -1,7 +1,7 @@
 
 # 🧩 **Tuplas en Python (`tuple`)**
 
-En proyectos reales las tuplas se usan para estructuras inmutables, retorno de funciones, y empaquetado/desempaquetado de datos.
+En proyectos reales las tuplas se usan para estructuras inmutables, **retorno de funciones**, y **empaquetado/desempaquetado de datos**.
 
 ## 📘 ¿Qué es una tupla?
 
@@ -20,13 +20,13 @@ mi_tupla = ("Python", 3.14, True, 42)
 ```
 
 * El tipo de dato es **`tuple`**.
-* Se pueden incluir valores de distintos tipos.
-* Si solo tiene **un elemento**, debe terminar con una **coma** para que Python la reconozca como tupla:
 
 ```python
 una_tupla = (5,)   # ✅ tupla
 no_es_tupla = (5)  # ❌ esto es un entero
 ```
+
+* Si solo tiene **un elemento**, debe terminar con una **coma** para que Python la reconozca como tupla:
 
 ---
 

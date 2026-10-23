@@ -10,6 +10,13 @@ Los comentarios se inician con el caracter **#**
 
 ```py
     # Esto es un comentario
+
+    """
+    Esto tambien es un comentario
+    Y puede ser multilinias
+    Hasta cerrar las
+    triples comillas
+    """
 ```
 
 ### Conocer el tipo de dato
@@ -49,3 +56,5 @@ Salida (acortada):
 ### lo use al trabajar con pandas
 cambie el tipo de dato que almacenaba de int a str
 - astype(str)
+
+Es **"Casteo"**

@@ -27,7 +27,7 @@ print(persona["nombre"])   # Luis
 print(persona.get("edad")) # 25
 ```
 
-> ⚠️ Si usas `[]` con una clave inexistente, lanza un `KeyError`.
+> ⚠️ Si usas `[]` con una clave inexistente, lanza un `KeyError`.  
 > Con `get()` devuelve `None` (o un valor por defecto si lo indicas).
 
 ```python
