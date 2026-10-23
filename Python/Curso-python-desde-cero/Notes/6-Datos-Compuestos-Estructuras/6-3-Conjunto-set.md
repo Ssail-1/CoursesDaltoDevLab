@@ -6,6 +6,7 @@
 * Es una **colección no ordenada** y **sin elementos duplicados**.
 * Se define con **llaves `{}`** o con el constructor `set()`.
 * No permite acceder por índice (no hay posiciones como en listas o tuplas).
+
 * Es útil para **eliminar duplicados, hacer operaciones matemáticas** (unión, intersección, diferencia) o comprobar pertenencia rápida.
 
 ---
@@ -28,6 +29,7 @@ mi_set_vacio = set()
 ## 🎯 **Propiedades importantes**
 
 * Los elementos **no tienen orden** → no puedes hacer `mi_set[0]`.
+
 * No se pueden repetir → los duplicados se eliminan automáticamente.
 * Los elementos deben ser **inmutables** (por ejemplo, puedes guardar una tupla, pero no una lista).
 
@@ -61,6 +63,7 @@ numeros.clear()      # Vacía el conjunto
 | `set.discard(x)` | Elimina un elemento (sin error).                | `numeros.discard(2)`     |
 | `set.pop()`      | Elimina y devuelve un elemento aleatorio.       | `numeros.pop()`          |
 | `set.copy()`     | Crea una copia del conjunto.                    | `copia = numeros.copy()` |
+| `set.update({"itemX", "itemY"})` | Agraga listas, tuplas, conjuntos | `set.update({"itemX", "itemY"})` |
 
 ---
 
@@ -72,12 +75,15 @@ b = {3, 4, 5, 6}
 
 # Unión (todos los elementos)
 print(a | b)   # {1, 2, 3, 4, 5, 6}
+print(a.union(b))
 
 # Intersección (comunes)
 print(a & b)   # {3, 4}
+print(a.intersection(b))
 
 # Diferencia (solo en a)
 print(a - b)   # {1, 2}
+print(a.difference(b))
 
 # Diferencia simétrica (no comunes)
 print(a ^ b)   # {1, 2, 5, 6}

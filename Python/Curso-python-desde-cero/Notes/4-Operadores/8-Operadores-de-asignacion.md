@@ -22,6 +22,12 @@ El más básico es `=`, pero Python tiene varios operadores abreviados.
 | `%=`     | Módulo y asigna.          | `x %= 3`  | `x = x % 3`  |
 | `**=`    | Exponente y asigna.       | `x **= 3` | `x = x ** 3` |
 
+Extra:
+
+**Operador Warlus (:=)** >= Python 3.8
+
+Permite asignar el valor a una variable dentro de una misma función.
+
 ---
 
 ## 🔢 **Ejemplo práctico**

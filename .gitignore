@@ -1,0 +1,10 @@
+# Entornos virtuales
+.venv/
+venv/
+EntornoDiagramasVenn/
+EntornoPandas/
+EntornoGraficos/
+
+# Archivos temporales
+__pycache__/
+*.py[cod]

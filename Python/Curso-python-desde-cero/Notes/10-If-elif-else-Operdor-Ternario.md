@@ -15,6 +15,8 @@ if condicion:
     # código si la condición es verdadera
 elif otra_condicion:
     # código si la condición anterior fue falsa
+elif ultima_condicion:
+    pass # Ignora la condición y sale de la estructura
 else:
     # código si ninguna condición fue verdadera
 ```
@@ -23,47 +25,47 @@ else:
 
 * En Python **los bloques de código se definen por indentación (espacios o tabulaciones)**, no por llaves `{}`.
 * Lo habitual es usar **4 espacios** por nivel.
+* Usa `pass` si deseas ignorar la condición o definir despues el comportamiento.
 
 ---
 
 ## ⚙️ **Ejemplo simple**
 
 ```python
-edad = 18
+efectivo = 100
 
-if edad >= 18:
-    print("Eres mayor de edad")
+if efectivo == 100:
+    print("Alcanza para kit 1")
+elif efectivo => 200 :
+    print("Toma kit 1 y membresia plus")
+elif efectivo <= 50:
+    pass
 else:
-    print("Eres menor de edad")
+    print("Adquiere uno de nuestros productos desde $51")
 ```
 
 Salida:
 
-```
-Eres mayor de edad
+```bash
+Alcanza para kit 1
 ```
 
 ---
 
-## 🧠 **Ejemplo con `elif` (múltiples condiciones)**
+## 🧩 **Condicional en una sola línea (expresión ternaria)**
+
+Forma corta de escribir un `if/else` cuando solo hay una instrucción:
 
 ```python
-nota = 85
-
-if nota >= 90:
-    print("Excelente")
-elif nota >= 80:
-    print("Muy bien")
-elif nota >= 70:
-    print("Aprobado")
-else:
-    print("Reprobado")
+edad = 17
+mensaje = "Mayor de edad" if edad >= 18 else "Menor de edad"
+print(mensaje)
 ```
 
 Salida:
 
-```
-Muy bien
+```bash
+Menor de edad
 ```
 
 ---
@@ -116,24 +118,6 @@ if (x + y) > 12:
     print("La suma es mayor a 12")
 else:
     print("La suma es 12 o menor")
-```
-
----
-
-## 🧩 **Condicional en una sola línea (expresión ternaria)**
-
-Forma corta de escribir un `if/else` cuando solo hay una instrucción:
-
-```python
-edad = 17
-mensaje = "Mayor de edad" if edad >= 18 else "Menor de edad"
-print(mensaje)
-```
-
-Salida:
-
-```
-Menor de edad
 ```
 
 ---

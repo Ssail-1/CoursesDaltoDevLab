@@ -74,6 +74,8 @@ El orden de evaluación sigue las reglas matemáticas (PEMDAS):
 2. Exponentes `**`
 3. Multiplicación, División, Módulo `*`, `/`, `//`, `%`
 4. Suma y Resta `+`, `-`
+5. Comparaciones de identidad y pertenencia
+6. Lógicos
 
 Ejemplo:
 

@@ -4,9 +4,11 @@
 ## 📘 ¿Qué es una lista?
 
 * Es una **colección ordenada y modificable** de elementos.
-* Puede contener **diferentes tipos de datos** (enteros, cadenas, booleanos, etc.).
-* Es el equivalente a un **array** en otros lenguajes.
+* Puede contener **diferentes tipos de datos**
+* Equivalente a un **array** en otros lenguajes.
 * Los elementos están **indexados desde 0** hasta *n – 1*.
+* Se definen con **cohorchetes `[]`**.
+* El tipo de dato es **list**
 
 ---
 
@@ -41,6 +43,19 @@ print(name_list[-1])  # "item 3" → índice negativo accede desde el final
 name_list[1] = 10
 print(name_list)  # ['elemento 0', 10, True, 'item 3']
 ```
+
+---
+
+## 🧠 **Resumen general**
+
+* `append()`, `insert()`, `extend()` → agregar elementos.
+* `pop()`, `remove()`, `clear()` → eliminar elementos.
+* `sort()` y `reverse()` → ordenar o invertir.
+* `count()`, `index()`, `len()` → obtener información.
+* Las listas son **mutables**, **ordenadas** y pueden contener **tipos mixtos**.
+* Permiten **anidación** y **comprensiones** para crear listas dinámicas.
+* Soportan **índices positivos y negativos**.
+* Se pueden **anidar, ordenar, copiar y recorrer** fácilmente.
 
 ---
 
@@ -82,7 +97,7 @@ print(lista)  # ['A', 'X', 'B', 'C', 'D', 'E', 'F']
 
 ### `pop()`
 
-Elimina un elemento por **índice** y lo **devuelve**.
+Elimina un elemento por **índice** y **devuelve** el elemento eliminado.
 
 * Si no se indica índice, elimina el **último elemento**.
 * Si se usa un índice negativo, elimina desde el final.
@@ -198,18 +213,5 @@ También se pueden usar condiciones:
 pares = [x for x in range(10) if x % 2 == 0]
 print(pares)  # [0, 2, 4, 6, 8]
 ```
-
----
-
-## 🧠 **Resumen general**
-
-* `append()`, `insert()`, `extend()` → agregar elementos.
-* `pop()`, `remove()`, `clear()` → eliminar elementos.
-* `sort()` y `reverse()` → ordenar o invertir.
-* `count()`, `index()`, `len()` → obtener información.
-* Las listas son **mutables**, **ordenadas** y pueden contener **tipos mixtos**.
-* Permiten **anidación** y **comprensiones** para crear listas dinámicas.
-* Soportan **índices positivos y negativos**.
-* Se pueden **anidar, ordenar, copiar y recorrer** fácilmente.
 
 ---
