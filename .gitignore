@@ -8,3 +8,6 @@ EntornoGraficos/
 # Archivos temporales
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
+
+.vscode
